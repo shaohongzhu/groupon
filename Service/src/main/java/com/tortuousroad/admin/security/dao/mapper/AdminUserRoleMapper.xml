@@ -24,7 +24,7 @@
   <insert id="insert" parameterType="com.tortuousroad.admin.security.entity.AdminUserRole" >
     insert into admin_user_role (id, admin_user_id, admin_role_id, 
       create_time, update_time)
-    values (#{id,jdbcType=BIGINT, #{adminUserId,jdbcType=BIGINT}, #{adminRoleId,jdbcType=BIGINT},
+    values (#{id,jdbcType=BIGINT}, #{adminUserId,jdbcType=BIGINT}, #{adminRoleId,jdbcType=BIGINT},
       #{createTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP})
   </insert>
   <insert id="insertSelective" parameterType="com.tortuousroad.admin.security.entity.AdminUserRole" >
