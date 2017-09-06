@@ -1,2 +1,3 @@
-# beautifulDay
-study talk
+慕课电商实战项目
+1.准备lombok插件（简化代码）
+2.准备redis做缓存
